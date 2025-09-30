@@ -3,8 +3,7 @@ import os, sqlite3, asyncio
 from telegram import Bot
 from telegram.error import Forbidden, BadRequest
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN") or "7950588604:AAFyKm_ejwUBXB7tKMtBHVmM6C8OQsaOOEg"
-DB_PATH = "/home/loyo/projects/VadimsTasks/tasks.db"
+
 
 
 async def can_dm(bot: Bot, tid: str) -> bool:
